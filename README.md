@@ -1,41 +1,52 @@
-🌦️ Weather GUI Application (Java Swing)
+📂 File Handling Utility (Java Swing)
 
-This is a Java Swing-based Weather Application that allows users to enter a city name and view the current weather details such as temperature, wind speed, wind direction, and time.
+This is a Java Swing–based File Handling Application that allows users to select, read, write, modify, and clear file content using a graphical user interface.
 
-The application uses:
-
-OpenWeatherMap Geocoding API → to convert city name into latitude & longitude
-
-Open-Meteo API → to fetch real-time weather data
+The application makes file operations simple by integrating a file chooser and interactive buttons.
 
 🚀 Features
 
-Simple and user-friendly GUI (Swing)
+Graphical User Interface using Java Swing
 
-City-based weather search
+Choose files using JFileChooser
 
-Displays:
+Perform file operations:
 
-Temperature (°C)
+📖 Read file content
 
-Wind speed (km/h)
+✍️ Write (overwrite) file content
 
-Wind direction (degrees)
+🛠️ Modify (append) file content
 
-Observation time
+🧹 Clear text area
 
-Error handling for invalid city names
+Error handling for missing file selection
 
 🛠️ Technologies Used
 
 Java (JDK 8 or above)
 
-Java Swing (GUI)
+Java Swing
 
-REST APIs
+Java I/O (FileReader, FileWriter, BufferedReader)
 
-org.json library for JSON parsing
-
-📦 Project Structure
-WeatherGUIWithGeocoding.java
+📁 Project Structure
+FileHandlingGUIWithChooser.java
 README.md
+
+
+
+
+Use the buttons to perform file operations
+
+🧭 How It Works
+
+Choose File – Select any text file using file chooser
+
+Read File – Displays file content in the text area
+
+Write File – Overwrites file with text area content
+
+Modify File – Appends new text to the existing file
+
+Clear – Clears the text area
