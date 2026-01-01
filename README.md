@@ -1,23 +1,41 @@
-# Chat Application
+🌦️ Weather GUI Application (Java Swing)
 
-A simple Java-based chat application with a server-client architecture and a graphical user interface (GUI). Multiple clients can connect to the server and chat in real-time.
+This is a Java Swing-based Weather Application that allows users to enter a city name and view the current weather details such as temperature, wind speed, wind direction, and time.
 
----
+The application uses:
 
-## 🛠️ Features
+OpenWeatherMap Geocoding API → to convert city name into latitude & longitude
 
-- Server-client communication using **Java Sockets**.
-- Supports **multiple clients** simultaneously.
-- **GUI client** built with **Swing**.
-- Broadcasts messages to all connected clients.
-- Handles client disconnections gracefully.
+Open-Meteo API → to fetch real-time weather data
 
----
+🚀 Features
 
-## 📁 Project Structure
-ChatApplication/
-├── ChatServer.java # Server-side program
-├── ClientHandler.java # Handles communication for each client
-├── ChatClientGUI.java # GUI-based client program
-└── README.md # Project documentation
+Simple and user-friendly GUI (Swing)
 
+City-based weather search
+
+Displays:
+
+Temperature (°C)
+
+Wind speed (km/h)
+
+Wind direction (degrees)
+
+Observation time
+
+Error handling for invalid city names
+
+🛠️ Technologies Used
+
+Java (JDK 8 or above)
+
+Java Swing (GUI)
+
+REST APIs
+
+org.json library for JSON parsing
+
+📦 Project Structure
+WeatherGUIWithGeocoding.java
+README.md
