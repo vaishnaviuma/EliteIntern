@@ -1,32 +1,23 @@
-# 📚 Book Recommendation AI
+# Chat Application
 
-A Java-based Book Recommendation system that suggests books to users based on predefined data and recommendation logic. This project demonstrates object-oriented programming concepts, data handling, and basic recommendation techniques using Java and Maven.
-
----
-
-## 🚀 Features
-
-- Load book data from a structured source
-- Recommend books based on user preferences
-- Modular and clean code structure
-- Console-based user interface
-- Easy to extend with advanced AI/ML logic in the future
+A simple Java-based chat application with a server-client architecture and a graphical user interface (GUI). Multiple clients can connect to the server and chat in real-time.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Features
 
-- **Java (JDK 17)**
-- **Maven**
-- **IntelliJ IDEA**
-- Object-Oriented Programming (OOP)
+- Server-client communication using **Java Sockets**.
+- Supports **multiple clients** simultaneously.
+- **GUI client** built with **Swing**.
+- Broadcasts messages to all connected clients.
+- Handles client disconnections gracefully.
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+ChatApplication/
+├── ChatServer.java # Server-side program
+├── ClientHandler.java # Handles communication for each client
+├── ChatClientGUI.java # GUI-based client program
+└── README.md # Project documentation
 
-
-- `Book.java` – Book model class
-- `BookLoader.java` – Loads book data
-- `RecommendationEngine.java` – Core recommendation logic
-- `BookRecommendationUI.java` – User interaction layer
