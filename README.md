@@ -30,4 +30,3 @@ A Java-based Book Recommendation system that suggests books to users based on pr
 - `BookLoader.java` – Loads book data
 - `RecommendationEngine.java` – Core recommendation logic
 - `BookRecommendationUI.java` – User interaction layer
-
